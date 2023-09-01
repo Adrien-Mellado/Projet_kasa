@@ -1,0 +1,32 @@
+.Logement{
+  display: flex;
+    width: 65%;
+    height: 100%;
+    background-color: #f6f6f6;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.gallery{
+    display: flex;
+    width: 340px;
+    height: 340px;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: linear-gradient(180deg,rgba(251, 106, 106)  ,rgb(201, 94, 94) );
+    
+}
+
+.description{
+    display: flex;
+}
